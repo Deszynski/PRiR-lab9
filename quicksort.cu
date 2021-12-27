@@ -129,7 +129,6 @@ void Init(int* values, int i)
 int main(int argc, char **argv) 
 {
 	printf("Quicksort begins with %d nunmbers...\n", N);
- 	unsigned int hTimer;
  	size_t size = N * sizeof(int);
  	
  	// allocate host memory
